@@ -4,7 +4,8 @@
 ## Task 1
 ![task1](https://github.com/user-attachments/assets/42d0954b-e9c2-4fdc-a999-68854475f99a)
 ### Solution
-The following JSON Schema defines a `Person` object with required fields for `name`, `age`, and `email`.
+The following JSON Schema defines a `Person` object with required fields for `name`, `age`, and `email`. The `age` type was corrected from `string` to `number`.
+
 
 
 ```json
@@ -42,7 +43,7 @@ The following JSON Schema defines a `Person` object with required fields for `na
 ## Task 2
 ![task2](https://github.com/user-attachments/assets/b7dcd625-b270-4bc3-9f6c-233aad53b048)
 ## Solution
-This JSON Schema defines a Product object with attributes for productId, productName, description, and other product details such as price, currency, and availability.
+This JSON Schema defines a Product object with attributes for `productId`, `productName`, `description`, and other product details such as `price`, `currency`, and `availability`.
 ```json
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
