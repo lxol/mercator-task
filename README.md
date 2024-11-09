@@ -177,7 +177,7 @@ This JSON Schema defines a Product object with attributes for `productId`, `prod
 The following OpenAPI YAML describes a User schema for an API, defining required properties and specifying data formats for certain fields.
 
 ```yaml
-openapi: 3.0.0
+openapi: 3.0.3
 info:
   title: User API
   version: 1.0.0
