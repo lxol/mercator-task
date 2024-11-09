@@ -1,11 +1,13 @@
 # mercator-task
-Architect Interview Tasks
+Architect Interview Tasks - This repository contains solutions for three tasks assigned during the architect interview process.
 
 ## Task 1
 ![task1](https://github.com/user-attachments/assets/42d0954b-e9c2-4fdc-a999-68854475f99a)
-## Task 1 Solution
+### Solution
+The following JSON Schema defines a `Person` object with required fields for `name`, `age`, and `email`.
 
-``` json
+
+```json
 {
   "title": "Person",
   "type": "object",
@@ -39,8 +41,9 @@ Architect Interview Tasks
 
 ## Task 2
 ![task2](https://github.com/user-attachments/assets/b7dcd625-b270-4bc3-9f6c-233aad53b048)
-## Task 2 Solution
-``` json
+## Solution
+This JSON Schema defines a Product object with attributes for productId, productName, description, and other product details such as price, currency, and availability.
+```json
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "type": "object",
@@ -169,9 +172,10 @@ Architect Interview Tasks
 
 ## Task 3
 ![task3](https://github.com/user-attachments/assets/a6165597-d171-43cc-bff5-c91bc0e79372)
-## Task 3 Solution
+## Solution
+The following OpenAPI YAML describes a User schema for an API, defining required properties and specifying data formats for certain fields.
 
-``` yaml
+```yaml
 openapi: 3.0.0
 info:
   title: User API
