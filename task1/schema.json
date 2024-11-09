@@ -6,7 +6,7 @@
       "type": "string"
     },
     "age": {
-      "type": "string"
+      "type": "number"
     },
     "email": {
       "type": "string",
