@@ -1,0 +1,37 @@
+{
+  "productId": "12345",
+  "productName": "Wireless Headphones",
+  "description": "High-quality wireless headphones with noise cancellation.",
+  "price": 99.99,
+  "currency": "USD",
+  "available": true,
+  "categories": [
+    "Electronics",
+    "Audio",
+    "Wireless"
+  ],
+  "dimensions": {
+    "width": 15.2,
+    "height": 18.3,
+    "depth": 8.5,
+    "unit": "cm"
+  },
+  "reviews": [
+    {
+      "reviewId": "r1",
+      "reviewer": "John Doe",
+      "rating": 4.5,
+      "comment": "Great sound quality, but a bit uncomfortable after long hours."
+    },
+    {
+      "reviewId": "r2",
+      "reviewer": "Jane Smith",
+      "rating": 4,
+      "comment": "Good value for money."
+    }
+  ],
+  "stock": {
+    "quantity": 120,
+    "warehouseLocation": "A1-23"
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "productId": {
+      "type": "string"
+    },
+    "productName": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "price": {
+      "type": "number"
+    },
+    "currency": {
+      "type": "string",
+      "enum": [
+        "USD",
+        "EUR",
+        "GBP"
+      ]
+    },
+    "available": {
+      "type": "boolean"
+    },
+    "categories": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "dimensions": {
+      "type": "object",
+      "properties": {
+        "width": {
+          "type": "number",
+          "minimum": 0
+        },
+        "height": {
+          "type": "number",
+          "minimum": 0
+        },
+        "depth": {
+          "type": "number",
+          "minimum": 0
+        },
+        "unit": {
+          "type": "string",
+          "enum": [
+            "cm",
+            "inches"
+          ],
+          "default": "cm"
+        }
+      },
+      "required": [
+        "width",
+        "height",
+        "depth",
+        "unit"
+      ]
+    },
+    "reviews": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "reviewId": {
+            "type": "string"
+          },
+          "reviewer": {
+            "type": "string"
+          },
+          "rating": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 5,
+            "pattern": "^[0-5](\\.\\d)?$"
+          },
+          "comment": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "reviewId",
+          "reviewer",
+          "rating",
+          "comment"
+        ]
+      }
+    },
+    "stock": {
+      "type": "object",
+      "properties": {
+        "quantity": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "warehouseLocation": {
+          "type": "string",
+          "pattern": "^[A-Z]\\d+-\\d+$"
+        }
+      },
+      "required": [
+        "quantity",
+        "warehouseLocation"
+      ]
+    }
+  },
+  "required": [
+    "productId",
+    "productName",
+    "description",
+    "price",
+    "currency",
+    "available",
+    "categories",
+    "dimensions",
+    "reviews",
+    "stock"
+  ]
+}
