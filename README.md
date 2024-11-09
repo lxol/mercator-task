@@ -1,5 +1,5 @@
-# mercator-task
-Architect Interview Tasks - This repository contains solutions for three tasks assigned during the architect interview process.
+# Architect Interview Tasks
+ This file contains solutions for three tasks assigned during the architect interview process.
 
 ## Task 1
 ![task1](https://github.com/user-attachments/assets/42d0954b-e9c2-4fdc-a999-68854475f99a)
