@@ -1,0 +1,9 @@
+{
+  "name": "Alice Smith",
+  "age": 30,
+  "email": "alice.smith@example.com",
+  "address": {
+    "street": "123 Elm St",
+    "city": "Somewhere"
+  }
+}
